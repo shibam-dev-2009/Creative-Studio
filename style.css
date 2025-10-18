@@ -202,6 +202,8 @@ body{
     width: 30vw;
     max-width: 600px;
     padding: 5px;
+    background-color: var(--platinum);
+    color: var(--onyx);
 }
 .contactus form textarea{
     font-family: "Outfit";
