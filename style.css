@@ -202,7 +202,7 @@ body{
     width: 30vw;
     max-width: 600px;
     padding: 5px;
-    
+    color: var(--onyx);
     
 }
 .contactus form textarea{

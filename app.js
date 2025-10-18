@@ -4,8 +4,13 @@ let about =document.getElementById("about");
 let contact =document.getElementById("contact");
 let aboutbtn =document.getElementById("aboutbtn");
 let contactbtn =document.getElementById("contactbtn");
+let git =document.getElementById("git");
 
 aboutbtn.addEventListener("click" ,(event)=>{
+    event.preventDefault(); // <-- prevents page reload
+    about.scrollIntoView({ behavior: "smooth" });
+})
+git.addEventListener("click" ,(event)=>{
     event.preventDefault(); // <-- prevents page reload
     about.scrollIntoView({ behavior: "smooth" });
 })
